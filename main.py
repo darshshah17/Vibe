@@ -19,7 +19,6 @@ config = AutoConfig.from_pretrained(MODEL)
 # PT
 model = AutoModelForSequenceClassification.from_pretrained(MODEL)
 #model.save_pretrained(MODEL)
-audio_path = 'sanskritidepression.mp3'
 
 encoded_input = tokenizer(transcript, return_tensors='pt')
 output = model(**encoded_input)
