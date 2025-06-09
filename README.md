@@ -1,6 +1,6 @@
 # Vibe
 
-This project is a Flask-based backend for the Vibe application.
+This is an audio-based mood detection platform that provides personalized music suggestions.
 
 ## Setup
 
