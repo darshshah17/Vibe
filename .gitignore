@@ -1,0 +1,18 @@
+# Ignore Python virtual environment
+vibeVenv/
+__pycache__/
+
+# Ignore node modules
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore model files
+model/ 
